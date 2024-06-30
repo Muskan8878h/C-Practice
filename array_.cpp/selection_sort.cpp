@@ -24,3 +24,10 @@ int main(){
         cout<<arr[i]<<" ";
     }
 }
+
+//eplaination - find the minimum element in unsorted array and swap it with element at the begning 
+// 12, 45, 23, 51, 19, 8
+// 8, 45, 23, 51, 19, 12
+// 8, 12, 23, 51, 19, 45
+// 8, 12, 19, 23, 51,45
+// 8, 12, 19, 23, 45, 51
