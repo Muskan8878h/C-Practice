@@ -23,3 +23,9 @@ int main(){
     cout<<result<<endl;
     return 0;
 }
+
+// output
+// 7
+// 10 7 4 6 8 10 11
+// input
+// 4
