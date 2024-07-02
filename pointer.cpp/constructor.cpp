@@ -54,5 +54,9 @@ int main(){
     // for this keyword calling object is b1
     bank b1("76447","ram","SBI");
     b1.getInfo();
+
+    // copy constructor
+    bank b2(b1); //default copy constructor invoked
+    b2.getInfo();
     
 }
