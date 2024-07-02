@@ -10,20 +10,20 @@ class bank{
         string username;
         string bank_name;
 
-        //non parametrized constructor
+    //non parametrized constructor
         // bank(){
         //     cout<<"hey!Welcome to SBI bank"<<endl;
         //     bank_name = "SBI";//initialsise the construction 
         // }
 
-        //parametrized constructor
+    //parametrized constructor
         // bank(string a, string u, string b){
         //     accoNo=a;
         //     username=u;
         //     bank_name=b;
         // }
         
-        // this (it is used if we want to give full name of parameters )
+    // this (it is used if we want to give full name of parameters )
         bank(string accoNo, string username, string bank_name){
             // but complier get confused bcz both of same values 
             // accoNo=accoNo;
@@ -35,6 +35,15 @@ class bank{
             this->bank_name=bank_name;
         }
         
+    // copy constructor
+        bank(bank &orgObj){//pass by referance
+            cout<<"custom copy constructor" <<endl;
+            this->accoNo=orgObj.accoNo;
+            this->username=orgObj.username;
+            this->bank_name=orgObj.bank_name;
+            
+        }
+
 
         void getInfo(){
             cout<<"accoNo. "<<accoNo<<endl;
@@ -56,7 +65,10 @@ int main(){
     b1.getInfo();
 
     // copy constructor
-    bank b2(b1); //default copy constructor invoked
+    // bank b2(b1); //default copy constructor invoked
+    // b2.getInfo();
+
+    bank b2(b1); //custom copy constructor  invoked
     b2.getInfo();
     
 }
