@@ -51,6 +51,7 @@ int main(){
     // cout<<b1.accoNo<<endl<<b1.username<<endl;
 
     // parametrized
+    // for this keyword calling object is b1
     bank b1("76447","ram","SBI");
     b1.getInfo();
     
