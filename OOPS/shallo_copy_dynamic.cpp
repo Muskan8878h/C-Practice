@@ -22,11 +22,12 @@ class student{
     }
 };
 int main(){
-    student s1("ram",8.5);
-    student s2(s1);
-    s2.getInfo();
+    student s1("ram",8.5); //ram
+    student s2(s1);  //sita
+    s1.getInfo();  
     *s2.cgpaptr = 9.5;
-    s2.getInfo();
+    s1.getInfo();
+    //we change cgpa of s2 but when we print after changing the cgpa then it give wrong answer
 
 
 }
