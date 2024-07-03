@@ -9,9 +9,10 @@ class student {
         cgpaptr=new double;
         *cgpaptr=cgpa;
     }
-    // destructor
+    // destructor  
     ~student(){
         cout<<"hi,i delete everything"<<endl;
+        delete cgpaptr; //to deallocate the memory of pointer we use this
     }
 
 
