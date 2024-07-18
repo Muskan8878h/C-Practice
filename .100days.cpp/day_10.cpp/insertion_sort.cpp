@@ -11,6 +11,7 @@ int insertionSort(int arr[], int n){
         }
     }
 }
+// time complexity -> O(N) for best and worst case
 int main(){
     int n;
     cin>>n;
