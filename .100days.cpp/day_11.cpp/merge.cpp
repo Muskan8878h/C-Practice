@@ -54,3 +54,6 @@ int main() {
 
     return 0;
 }
+
+// time complexity => O(N*log (base 2) n)
+// space complexity => O(N)
