@@ -1,5 +1,5 @@
 // dynamic in nature 
-// contiguous memory alloction 
+// continuous memory alloction 
 #include<bits/stdc++.h>
 using namespace std;
 void printvec(vector<int> v){
