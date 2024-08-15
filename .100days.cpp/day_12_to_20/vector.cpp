@@ -1,3 +1,5 @@
+// dynamic in nature 
+// contiguous memory alloction 
 #include<bits/stdc++.h>
 using namespace std;
 void printvec(vector<int> v){
@@ -14,8 +16,7 @@ int main(){
     for (int i=0;i<n;i++){
         int x;
         cin>>x;
-        v.push_back(x);
+        v.push_back(x); //time complaxity of push_back is => O(1)
     }
     printvec(v);
-
 }
