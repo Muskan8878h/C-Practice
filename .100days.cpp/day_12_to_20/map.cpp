@@ -1,6 +1,7 @@
 // map is not continuous  (i+1 is invalid here )
 //it store values in sorted order
 // key are always unique 
+// usees TREES for inbuilt implementation 
 #include<bits/stdc++.h>
 using namespace std;
 void printmap(map<int,string> m){
