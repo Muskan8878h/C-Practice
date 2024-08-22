@@ -3,12 +3,13 @@ using namespace std;
 class complex{
     int a,b;
     public:
-    
+    // complex(void);
     complex(int ,int);
     void printNumber(){
         cout<<"Your no. is "<<a<<" + "<<b<<"i"<<endl;
     }
 };
+//complex :: complex(void);//default
 complex :: complex(int x,int y) //this is parametrized constructor as it takes 2 parameters.
 {
     a=x;
