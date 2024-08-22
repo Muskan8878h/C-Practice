@@ -6,7 +6,7 @@ class bankDeposite{
     float interstRate;
     float returnValue;
     public:
-        bankDeposite(){}
+        bankDeposite(){} //default constructor 
         bankDeposite(int p,int y,float r);
         bankDeposite(int p, int y,int r);
         void show();
