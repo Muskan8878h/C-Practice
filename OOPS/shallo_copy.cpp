@@ -22,6 +22,7 @@ class student{
 };
 int main(){
     student s1("ram",8.5);
+    s1.getInfo();
     student s2(s1);
     s2.getInfo();
 
