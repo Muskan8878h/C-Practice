@@ -19,3 +19,11 @@ int main() {
   cout << done << endl;
   return 0;
 }
+
+// The <iomanip> header provides so-called I/O manipulators for formatting input and output:
+// setw(int field-widht): set the field width for the next IO operation. setw() is non-sticky and must be issued prior to each IO operation. The field width is reset to the default after each operation (with just enough width to accommodate the field).
+// setfill(char fill-char): set the filled character for padding to the field width.
+// left|right|internal: set the alignment
+// fixed/scientific (for floating-point numbers): use fixed-point notation (e.g, 12.34) or scientific notation (e.g., 1.23e+006).
+// setprecision(int numDecimalDigits) (for floating-point numbers): specify the number of digits after the decimal point.
+// boolalpha/noboolalpha (for bool): display bool values as alphabetic string (true/false) or 1/0.
